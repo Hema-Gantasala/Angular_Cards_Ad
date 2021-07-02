@@ -1,0 +1,39 @@
+.example-card {
+    max-width: 300px;
+    max-height:500px;
+    border-radius: 10px;
+    height:60vh;
+    top:100px;
+}
+
+#example-header-image1 {
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRotZs-ApIB-8au8RGYU_AeX_1gfQf-0_9HzsyPslNfG3-qPtiz1k95jz0oYW9bUOKox1I&usqp=CAU');
+    background-size: cover;
+}
+
+#example-header-image2 {
+    background-image: url('https://randomuser.me/api/portraits/men/65.jpg');
+    background-size: cover;
+}
+
+#example-header-image3 {
+    background-image: url('https://randomuser.me/api/portraits/men/46.jpg');
+    background-size: cover;
+}
+.flex-cards>div {
+    margin-right: 20px;
+    margin-top: 20px;
+}
+
+mat-card {
+    cursor: pointer;
+    size:cover;
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+mat-card:hover {
+    transform: scale(1.1);
+}
+
